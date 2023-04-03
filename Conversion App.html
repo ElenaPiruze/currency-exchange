@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./tab icons/Currency Icon.png" />
+    <link href="./css/style conversion app.css" type="text/css" rel="stylesheet" />
+    <title>Exchange Currency App</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h1 id="prv">Project Exchange Currency App</h1>
+      </div>
+      <br />
+      <div id="converters">
+        <h2 id="kon1">Convert Money</h2>
+        <br />
+        <input type="text" id="input" placeholder="Input" />
+        <span>=</span>
+        <input type="text" id="result" placeholder="Result" />
+
+        <select id="inputType">
+          <option value="euro">Euro</option>
+          <option value="usd">USD</option>
+          <option value="denar">Macedonian Denar</option>
+          <option value="lev">Bulgarian Lev</option>
+        </select>
+
+        <select id="resultType">
+          <option value="euro">Euro</option>
+          <option value="usd">USD</option>
+          <option value="denar">Macedonian Denar</option>
+          <option value="lev">Bulgarian Lev</option>
+        </select>
+      </div>
+
+      <script src="./js/Conversion App.js"></script>
+    </main>
+  </body>
+</html>
