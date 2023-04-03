@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  min-height: calc(80vh - 60px);
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../images/Money\ image.jpg);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(179, 34, 34);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(3, 86, 3);
+}
+
+#input {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#result {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+#inputType {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+#resultType {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+span {
+  color: green;
+}
+
+@media only screen and (max-width: 1024px) {
+  #input,
+  #result,
+  #inputType,
+  #resultType {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #input,
+  #result,
+  #inputType,
+  #resultType {
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    margin: 3px;
+  }
+
+  body {
+    width: auto;
+    height: auto;
+    background-size: auto;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}
